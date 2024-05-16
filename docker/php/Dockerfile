@@ -5,5 +5,5 @@ RUN apt-get update && apt-get install -y curl git zip \
 
 RUN docker-php-ext-install pdo mysqli pdo_mysql
 
-# Replace '/usr/bin/composer' with the actual path in the composer image
+# Replace '/usr/bin/composer' with the actual path in the composer img
 COPY --from=composer /usr/bin/composer /usr/bin/composer

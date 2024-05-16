@@ -1,9 +1,6 @@
 <?php
-
-require_once '../db/db.php';
-
+require_once 'db/config.php';
 ?>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +10,7 @@ require_once '../db/db.php';
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
 
-    <link rel="stylesheet" href="../shop/styles/css/style.css">
+    <link rel="stylesheet" href="/styles/css/style.css">
     <!-------------------------Font Awesome Icons --------------->
     <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
     <!----------x---------------Font Awesome Icons --------x------->
@@ -475,7 +472,7 @@ require_once '../db/db.php';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<script src="../shop/styles/js/main.js"></script>
+<script src="shop/styles/js/main.js"></script>
 </body>
 
 </html>
